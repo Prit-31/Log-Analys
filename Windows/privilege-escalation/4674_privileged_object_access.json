@@ -1,0 +1,20 @@
+{
+  "EventID": 4674,
+  "LogName": "Security",
+  "Source": "Microsoft-Windows-Security-Auditing",
+  "Date": "2025-07-06T14:30:00Z",
+  "Computer": "SERVER01.corp.local",
+  "Subject": {
+    "SecurityID": "CORP\\john.doe",
+    "AccountName": "john.doe",
+    "AccountDomain": "CORP",
+    "LogonID": "0x12F45"
+  },
+  "ObjectServer": "Security",
+  "HandleID": "0x0",
+  "ProcessInformation": {
+    "ProcessID": "0x528",
+    "ProcessName": "C:\\Windows\\System32\\powershell.exe"
+  },
+  "PrivilegeUsedForAccess": "SeDebugPrivilege"
+}
