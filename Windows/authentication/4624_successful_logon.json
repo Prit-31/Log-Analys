@@ -1,0 +1,38 @@
+{
+  "EventID": 4624,
+  "LogName": "Security",
+  "Source": "Microsoft-Windows-Security-Auditing",
+  "Date": "2025-07-06T13:45:22Z",
+  "Computer": "SERVER01.corp.local",
+  "Subject": {
+    "SecurityID": "S-1-5-18",
+    "AccountName": "SYSTEM",
+    "AccountDomain": "NT AUTHORITY",
+    "LogonID": "0x3E7"
+  },
+  "LogonInformation": {
+    "LogonType": 10,
+    "RestrictedAdminMode": "-",
+    "VirtualAccount": "No",
+    "ElevatedToken": "Yes"
+  },
+  "NewLogon": {
+    "SecurityID": "CORP\\john.doe",
+    "AccountName": "john.doe",
+    "AccountDomain": "CORP",
+    "LogonID": "0x12F45"
+  },
+  "ProcessInformation": {
+    "ProcessID": "0x228",
+    "ProcessName": "C:\\Windows\\System32\\winlogon.exe"
+  },
+  "NetworkInformation": {
+    "WorkstationName": "DESKTOP-12ABC",
+    "SourceNetworkAddress": "192.168.10.25",
+    "SourcePort": 53742
+  },
+  "DetailedAuthenticationInformation": {
+    "LogonProcess": "User32",
+    "AuthenticationPackage": "Negotiate"
+  }
+}
