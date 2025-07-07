@@ -1,0 +1,24 @@
+{
+  "EventID": 4663,
+  "LogName": "Security",
+  "Source": "Microsoft-Windows-Security-Auditing",
+  "Date": "2025-07-06T16:25:00Z",
+  "Computer": "FILESERVER01.corp.local",
+  "Subject": {
+    "SecurityID": "CORP\\hacker.admin",
+    "AccountName": "hacker.admin",
+    "AccountDomain": "CORP",
+    "LogonID": "0x22A1D"
+  },
+  "ObjectInformation": {
+    "ObjectType": "File",
+    "ObjectName": "C:\\HR\\Files\\SalaryData.xlsx",
+    "HandleID": "0x2f8",
+    "AccessMask": "0x2",
+    "AccessReasons": "ReadData (or ListDirectory)"
+  },
+  "ProcessInformation": {
+    "ProcessID": "0x750",
+    "ProcessName": "C:\\Windows\\System32\\powershell.exe"
+  }
+}
