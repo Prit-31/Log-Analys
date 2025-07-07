@@ -1,0 +1,40 @@
+{
+  "EventID": 4624,
+  "LogName": "Security",
+  "Source": "Microsoft-Windows-Security-Auditing",
+  "Date": "2025-07-06T14:15:00Z",
+  "Computer": "SERVER01.corp.local",
+  "Subject": {
+    "SecurityID": "S-1-5-18",
+    "AccountName": "SYSTEM",
+    "AccountDomain": "NT AUTHORITY",
+    "LogonID": "0x3E7"
+  },
+  "LogonInformation": {
+    "LogonType": 3,
+    "RestrictedAdminMode": "-",
+    "VirtualAccount": "No",
+    "ElevatedToken": "Yes"
+  },
+  "NewLogon": {
+    "SecurityID": "CORP\\jane.admin",
+    "AccountName": "jane.admin",
+    "AccountDomain": "CORP",
+    "LogonID": "0x99033"
+  },
+  "ProcessInformation": {
+    "ProcessID": "0x0",
+    "ProcessName": "-"
+  },
+  "NetworkInformation": {
+    "WorkstationName": "WIN-ATTACKER",
+    "SourceNetworkAddress": "203.0.113.101",
+    "SourcePort": 54000
+  },
+  "DetailedAuthenticationInformation": {
+    "LogonProcess": "Kerberos",
+    "AuthenticationPackage": "Kerberos",
+    "TransitedServices": "-",
+    "KeyLength": 0
+  }
+}
