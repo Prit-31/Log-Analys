@@ -1,0 +1,26 @@
+{
+  "EventID": 4768,
+  "LogName": "Security",
+  "Source": "Microsoft-Windows-Security-Auditing",
+  "Date": "2025-07-06T13:52:45Z",
+  "Computer": "DC01.corp.local",
+  "AccountInformation": {
+    "AccountName": "john.doe",
+    "SuppliedRealmName": "CORP.LOCAL",
+    "UserID": "CORP\\john.doe"
+  },
+  "ServiceInformation": {
+    "ServiceName": "krbtgt",
+    "ServiceID": "S-1-5-20"
+  },
+  "NetworkInformation": {
+    "ClientAddress": "192.168.10.25",
+    "ClientPort": 55621
+  },
+  "AdditionalInformation": {
+    "TicketOptions": "0x40810010",
+    "ResultCode": "0x0",
+    "TicketEncryptionType": "0x17",
+    "PreAuthenticationType": 2
+  }
+}
