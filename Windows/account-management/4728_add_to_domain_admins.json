@@ -1,0 +1,22 @@
+{
+  "EventID": 4728,
+  "LogName": "Security",
+  "Source": "Microsoft-Windows-Security-Auditing",
+  "Date": "2025-07-06T15:08:00Z",
+  "Computer": "DC01.corp.local",
+  "Subject": {
+    "SecurityID": "CORP\\admin.temp",
+    "AccountName": "admin.temp",
+    "AccountDomain": "CORP"
+  },
+  "MemberAdded": {
+    "SecurityID": "S-1-5-21-55555555-55555555-55555555-1234",
+    "AccountName": "backdoor.user",
+    "AccountDomain": "CORP"
+  },
+  "Group": {
+    "SecurityID": "S-1-5-32-544",
+    "GroupName": "Domain Admins",
+    "GroupDomain": "CORP"
+  }
+}
