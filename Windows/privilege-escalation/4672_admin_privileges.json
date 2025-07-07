@@ -1,0 +1,20 @@
+{
+  "EventID": 4672,
+  "LogName": "Security",
+  "Source": "Microsoft-Windows-Security-Auditing",
+  "Date": "2025-07-06T14:25:00Z",
+  "Computer": "SERVER01.corp.local",
+  "Subject": {
+    "SecurityID": "CORP\\john.doe",
+    "AccountName": "john.doe",
+    "AccountDomain": "CORP",
+    "LogonID": "0x12F45"
+  },
+  "Privileges": [
+    "SeSecurityPrivilege",
+    "SeTakeOwnershipPrivilege",
+    "SeBackupPrivilege",
+    "SeRestorePrivilege",
+    "SeDebugPrivilege"
+  ]
+}
