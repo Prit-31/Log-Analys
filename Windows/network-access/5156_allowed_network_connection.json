@@ -1,0 +1,22 @@
+{
+  "EventID": 5156,
+  "LogName": "Security",
+  "Source": "Microsoft-Windows-Security-Auditing",
+  "Date": "2025-07-06T16:22:00Z",
+  "Computer": "SERVER05.corp.local",
+  "ApplicationInformation": {
+    "ProcessID": "0x700",
+    "ApplicationName": "C:\\Windows\\System32\\powershell.exe"
+  },
+  "NetworkInformation": {
+    "SourceAddress": "192.168.1.100",
+    "SourcePort": 49988,
+    "DestinationAddress": "203.0.113.50",
+    "DestinationPort": 4444,
+    "Protocol": "TCP"
+  },
+  "FilterInformation": {
+    "LayerName": "Transport",
+    "LayerRTID": 48
+  }
+}
