@@ -1,4 +1,4 @@
-# 📂 log-analy
+# 📂 log-analys
 
 A **professional SOC log repository** for Blue Team analysts, threat hunters, and cybersecurity learners.
 
